@@ -8,7 +8,7 @@ The pipeline was written using Jupyter Notebooks to extract and transform raw da
 The data was cleaned by removing missing or corrupted data, consolidating duplicate information, and using regular expressions to standardize some data forms.
 
 ## Results
-The data was merged into two databases ("movies" and "ratings") and exported to two new tables in PostgreSQL.
+The databases, labeled "movies" and "ratings" can be queried for a variety of information and the extract-transform-load function in the Jupyter Notebook is able to add new information as often as needed.
 
 A count query on the Movie database reveals 6052 rows of data.
 ![Movie_table](https://github.com/jp3tty/Movies-ETL/blob/main/Images/Movies_table.PNG)
