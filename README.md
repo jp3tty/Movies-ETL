@@ -10,6 +10,8 @@ The data was cleaned by removing missing or corrupted data, consolidating duplic
 ## Results
 The data was merged into two databases ("movies" and "ratings") and exported to two new tables in PostgreSQL.
 
+A count query on the Movie database reveals 6052 rows of data.
 ![Movie_table](https://github.com/jp3tty/Movies-ETL/blob/main/Images/Movies_table.PNG)
 
+A count query on the Ratings database reveals 24,000,000 row of data.
 ![Ratings_table](https://github.com/jp3tty/Movies-ETL/blob/main/Images/Ratings_table.PNG)
